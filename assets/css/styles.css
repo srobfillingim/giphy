@@ -1,0 +1,57 @@
+body{
+	background: url("../images/old-tv.jpg");
+	background-size: 100%
+    /*background-repeat: repeat;
+    color: black;*/
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 300px;
+    /*width: 150px;*/
+}
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    background-color: #999999;
+    border-color: #fff;
+}
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+.container {
+    /*background-color: #fff;*/
+    background: url("../images/old-tv.jpg");
+	/*opacity: 0.8;*/
+	padding: 20px;
+}
+.jumbotron {
+    background-color: #098765;
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+}
+#copyright{
+	font-size: 14px;
+}
+footer {
+    background-color: #666666;
+	text-align: center;
+	position: fixed;
+	height: 50px;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	border-top: 10px solid #4aaaa5;
+}
+
+.footer p {
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	right: 35%;
+	color: #ffffff;
+}
