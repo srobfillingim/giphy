@@ -10,9 +10,9 @@ $( document ).ready(function() {
             gifButton.addClass("btn btn-primary")
             gifButton.attr("data-name", shows[i]);
             gifButton.text(shows[i]);
-            $("#gifButtonsView").append(gifButton);
+            $("#gifButtonsView").append(gifButton); 
         }
-    } action
+    } 
    
     function addNewButton(){
         $("#addGif").on("click", function(){
@@ -43,7 +43,7 @@ $( document ).ready(function() {
             url: queryURL,
             method: 'GET'
         })
-        .done(function(response) {
+        .done(function(response) { 
             console.log(response); 
             $("#gifsView").empty(); 
             var results = response.data; 
