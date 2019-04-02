@@ -12,7 +12,7 @@ $( document ).ready(function() {
             gifButton.text(shows[i]);
             $("#gifButtonsView").append(gifButton);
         }
-    }
+    } action
    
     function addNewButton(){
         $("#addGif").on("click", function(){
