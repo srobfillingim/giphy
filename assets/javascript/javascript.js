@@ -33,7 +33,7 @@ $( document ).ready(function() {
         displayGifButtons();
         return false;
         });
-    }
+    } 
    
     function displayGifs(){
         var show = $(this).attr("data-name");
